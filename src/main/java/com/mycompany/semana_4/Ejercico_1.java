@@ -18,8 +18,7 @@ public class Ejercico_1 {
                 matriz[i][j] = (int) (Math.random()*100+1);
                 if(i==j){
                     d1 = d1 + matriz[i][j];
-                }
-                 
+                }              
                 if(i+j == matriz.length-1){
                     d2 = d2 + matriz[i][j];
                 }
