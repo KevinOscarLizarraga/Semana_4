@@ -27,6 +27,8 @@ public class Ejercico_2 {
         for (int i = 0; i < matriz.length; i++) {
             System.out.println(Arrays.toString (matriz [i]));
         }
+        System.out.println("\nDiagonal Principal\n" + d1);
+        System.out.println("\nDiagonal Secundaria\n" + d2);
         System.out.println("\nMultiplicacion de diagonales\n" + ( d1 * d2 ));
     }
 }
